@@ -1,0 +1,21 @@
+{
+  "name": "myquest-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon ./src/app.js",
+    "test": "mocha __tests/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mocha": "^9.1.4",
+    "nodemon": "^2.0.15",
+    "sqlite3": "^5.0.2"
+  }
+}
